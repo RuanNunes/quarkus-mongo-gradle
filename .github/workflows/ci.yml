@@ -18,6 +18,8 @@ jobs:
         with:
           java-version: 17
           distribution: temurin
-          cache: maven
+          cache: gradle
       - name: Build
         run: ./gradlew build
+      - name: Build Native
+        run: ./gradlew build -Dquarkus.package.type=native
