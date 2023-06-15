@@ -1,4 +1,4 @@
-package ruan.nunes.api;
+package ruan.nunes.entrypoint.api;
 
 import jakarta.ws.rs.GET;
 import jakarta.ws.rs.Path;

@@ -1,4 +1,4 @@
-package ruan.nunes.api;
+package ruan.nunes.entrypoint.api;
 
 import org.eclipse.microprofile.health.HealthCheck;
 import org.eclipse.microprofile.health.HealthCheckResponse;

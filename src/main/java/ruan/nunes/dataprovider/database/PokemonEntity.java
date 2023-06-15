@@ -1,4 +1,4 @@
-package ruan.nunes.data;
+package ruan.nunes.dataprovider.database;
 
 import io.quarkus.mongodb.panache.PanacheMongoEntity;
 import io.quarkus.mongodb.panache.common.MongoEntity;

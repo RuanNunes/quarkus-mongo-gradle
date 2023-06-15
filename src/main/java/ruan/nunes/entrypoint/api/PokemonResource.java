@@ -1,4 +1,4 @@
-package ruan.nunes.api;
+package ruan.nunes.entrypoint.api;
 
 import jakarta.inject.Inject;
 import jakarta.ws.rs.Consumes;
@@ -7,9 +7,9 @@ import jakarta.ws.rs.Path;
 import jakarta.ws.rs.Produces;
 import jakarta.ws.rs.core.MediaType;
 import org.eclipse.microprofile.rest.client.inject.RestClient;
-import ruan.nunes.data.PokemonEntity;
-import ruan.nunes.data.client.PokemonClient;
-import ruan.nunes.data.client.dto.PokemonList;
+import ruan.nunes.dataprovider.database.PokemonEntity;
+import ruan.nunes.dataprovider.client.PokemonClient;
+import ruan.nunes.dataprovider.client.dto.PokemonList;
 
 import java.util.ArrayList;
 import java.util.List;

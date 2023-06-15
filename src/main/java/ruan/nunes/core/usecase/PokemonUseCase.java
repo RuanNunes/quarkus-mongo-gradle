@@ -3,8 +3,8 @@ package ruan.nunes.core.usecase;
 import jakarta.enterprise.context.ApplicationScoped;
 import jakarta.inject.Inject;
 import org.eclipse.microprofile.rest.client.inject.RestClient;
-import ruan.nunes.data.PokemonEntity;
-import ruan.nunes.data.client.PokemonClient;
+import ruan.nunes.dataprovider.database.PokemonEntity;
+import ruan.nunes.dataprovider.client.PokemonClient;
 
 import java.util.ArrayList;
 import java.util.List;
